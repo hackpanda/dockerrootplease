@@ -3,5 +3,5 @@ services:
   test:
     build: .
     volumes:
-      - "/root:/hostOS"
+      - "/tmp:/hostOS"
     container_name: web
