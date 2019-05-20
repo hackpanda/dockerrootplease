@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  test:
+    build: .
+    volumes:
+      - "/:/hostOS"
+    container_name: web
