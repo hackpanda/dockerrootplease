@@ -2,6 +2,6 @@ version: "3"
 services:
   test:
     build: .
-    volumes:
+    volu mes:
       - "/tmp:/hostOS"
     container_name: web
